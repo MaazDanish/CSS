@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(204, 204, 204);
+    /* height: 30px; */
+    text-align: center;
+}
+ul:hover{
+    background-color: rgb(59, 59, 59);
+}
+
+li {
+    /* margin: 0;
+    padding: 0; */
+    list-style: none;
+    display: inline;
+    font-size: 20px;
+    /* margin: 15px; */
+    /* text-decoration: none; */
+    /* text-align: center; */
+}
+
+ul li a {
+    text-decoration: none;
+    margin: auto 10px;
+    color: rgb(86, 0, 0);
+    /* background-color: pink; */
+}
+
+ul li a:hover {
+    /* padding: 1px 1px; */
+    background-color: pink;
+}
+
+ul li a:active {
+    background-color: rgb(255, 100, 126);
+    /* padding: 1px 1px; */
+}

@@ -1,0 +1,32 @@
+body{
+    max-width: 1000px;
+    margin: auto;
+}
+.img{
+    /* box-shadow: 10px 10px 10px 10px red; */
+    width: 200px;
+    height: 200px;
+    align-items:flex-end;
+}
+ul li:hover{
+    color: rgb(29, 218, 32);
+}
+ul li a {
+    color: pink;
+    text-decoration: none;
+}
+.main-div  div{
+    width:  200px;
+    height: 200px;
+    background-color: gray;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px 5px red;
+    border-radius: 5px 77px 0px 77px;
+
+}
+.main-div div:hover{
+    background-color: rgb(57, 57, 57);
+    border: 10px solid black;
+    box-shadow: 20px 20px 20px 20px red;
+
+}
